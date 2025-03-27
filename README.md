@@ -13,6 +13,10 @@ This project is a frontend-only implementation of a Netflix-style movie streamin
 -   ✅ Implement a dark mode toggle for an enhanced user experience.
 -   ✅ Deploy the project on Netlify or Vercel. ☁️
 
+## 🚀 Live Demo
+
+[**Visit the Live Demo!**](https://netflix-clone-livid-theta.vercel.app/) 🌐
+
 ## 🌟 Features
 
 -   **🏠 Homepage (Movie Dashboard):**
@@ -98,26 +102,29 @@ The project requires the following environment variables to be set:
 
 ## 🚀 Deployment
 
-To deploy this project, you can use platforms like Netlify or Vercel. Here’s a general outline:
+This project is deployed on Vercel.
 
-1.  **Create a production build:**
+[**Live Deployment Link:**](https://netflix-clone-livid-theta.vercel.app/)
 
-    ```bash
-    npm run build
-    ```
+-   To deploy this project yourself, you can use platforms like Netlify or Vercel. Here’s a general outline:
+    1.  **Create a production build:**
 
-2.  **Deploy to Netlify:**
+        ```bash
+        npm run build
+        ```
 
-    -   ☁️ Sign up or log in to [Netlify](https://www.netlify.com/).
-    -   📁 Drag and drop the `build` folder into Netlify to deploy.
-    -   ⚙️ Set environment variables for the TMDB API key in Netlify's settings.
+    2.  **Deploy to Netlify:**
 
-3.  **Deploy to Vercel:**
+        *   ☁️ Sign up or log in to [Netlify](https://www.netlify.com/).
+        *   📁 Drag and drop the `build` folder into Netlify to deploy.
+        *   ⚙️ Set environment variables for the TMDB API key in Netlify's settings.
 
-    -   ⚡ Sign up or log in to [Vercel](https://vercel.com/).
-    -   📦 Import the project from your Git repository.
-    -   Vercel will automatically detect it's a React project and deploy it.
-    -   ⚙️ Set environment variables for the TMDB API key in Vercel's settings.
+    3.  **Deploy to Vercel:**
+
+        *   ⚡ Sign up or log in to [Vercel](https://vercel.com/).
+        *   📦 Import the project from your Git repository.
+        *   Vercel will automatically detect it's a React project and deploy it.
+        *   ⚙️ Set environment variables for the TMDB API key in Vercel's settings.
 
 ## ⚠️ Known Issues
 
