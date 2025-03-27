@@ -1,0 +1,97 @@
+.movie-details {
+    background-color: var(--bg-dark);
+    color: var(--text-color-light);
+    padding: var(--spacing-unit);
+}
+
+.movie-details-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.movie-details-poster {
+    max-width: 300px;
+    border-radius: var(--border-radius);
+    margin-right: var(--spacing-unit);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.movie-details-info {
+    flex: 1;
+}
+
+.movie-details-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: calc(var(--spacing-unit) / 2);
+}
+
+.movie-details-overview {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-bottom: var(--spacing-unit);
+}
+
+.movie-details-release-date {
+    font-size: 1rem;
+    color: #aaa;
+}
+
+.movie-details-loading,
+.movie-details-error,
+.movie-details-not-found {
+    font-size: 1.2rem;
+    text-align: center;
+    padding: var(--spacing-unit);
+}
+
+.add-to-favorites-button {
+    background-color: #333;
+    color: var(--text-color-light);
+    border: none;
+    border-radius: var(--border-radius);
+    padding: calc(var(--spacing-unit) / 2) var(--spacing-unit);
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color var(--transition-speed);
+}
+
+.add-to-favorites-button:hover {
+    background-color: #555;
+}
+
+.add-to-favorites-button.favorite {
+    background-color: var(--primary-color);
+}
+
+.add-to-favorites-button.favorite:hover {
+    background-color: #c00710;
+}
+
+@media (max-width: 767px) {
+    .movie-details-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .movie-details-poster {
+        max-width: 100%;
+        margin-bottom: var(--spacing-unit);
+        margin-right: 0;
+    }
+
+    .movie-details-title {
+        font-size: 2rem;
+        text-align: center;
+    }
+}
+
+.trailer-container-blank {
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+    padding: 50px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+}

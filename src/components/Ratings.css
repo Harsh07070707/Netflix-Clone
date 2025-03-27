@@ -1,0 +1,33 @@
+.star-rating {
+    font-size: 1.5em;
+    display: inline-block;
+    color: #ffc107; 
+    margin-top: 10px;
+}
+
+.back-stars {
+    position: relative;
+    display: inline-block;
+}
+
+.back-stars .star {
+    color: #444; 
+    margin-right: 5px;
+}
+
+.front-stars {
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden; 
+    display: flex;
+}
+
+.front-stars .star {
+    color: #ffc107; 
+    margin-right: 5px;
+}
+
+.star {
+    color: #ffc107; 
+}
